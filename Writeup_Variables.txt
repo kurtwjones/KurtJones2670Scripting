@@ -1,0 +1,9 @@
+Variables have an access modifyer that says who can access it. private 
+only allows class in which it is called to access it. Unity can only see 
+public variables in its GUI. Next the variable can have a modifier like const.
+Then your variable needs a data type like int, double or bool. An identifier
+is a name that you call your variable. There are certain words you cant use
+for an identifier. It can't contradict the api, start with a number or
+contain two or more words. finally you assign it a value then end with
+a semi colon. Exposed variables are contained in unity and can be changed
+which will over ride your value in your script.
