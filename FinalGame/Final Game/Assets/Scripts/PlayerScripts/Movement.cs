@@ -2,14 +2,16 @@
 using System.Collections;
 
 public class Movement : MonoBehaviour {
+    //initializing variables
     public float speed = 1;
-    private CharacterController cc;
     public float gravity = -9.8f;
-    public float jumpSpeed = 5;
+    public float jumpSpeed = 500;
 
+    private CharacterController cc;
     private Vector3 tempPosition;
-	// Use this for initialization
+	
 	void Start () {
+        //character controller
         cc = GetComponent<CharacterController>();
 	}
 	
