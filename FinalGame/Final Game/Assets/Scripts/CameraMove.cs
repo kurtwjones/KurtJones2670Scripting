@@ -7,6 +7,6 @@ public class CameraMove : MonoBehaviour {
     private Vector3 tempPosition;
 	// Update is called once per frame
 	void Update () {
-        transform.position = new Vector3(transform.position.x, 0, 0);
+        transform.position = new Vector3(player.position.x , 3, -10);
 	}
 }
